@@ -1,0 +1,26 @@
+div.box {
+    border: 1px solid black;
+    margin-bottom: 20px;
+    height: 140px;
+    padding: 0;   
+    overflow: auto;
+}
+div.both {
+    resize: both;
+}
+
+div.none {
+    resize: none;
+}
+
+div.horizontal {
+    resize: horizontal;
+}
+
+div.vertical {
+    resize: vertical;
+}
+
+p  {
+    margin: 0;
+}

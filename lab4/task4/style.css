@@ -1,0 +1,21 @@
+p.box1 {
+    width:200px;
+    white-space: nowrap;
+    overflow: hidden;
+    border:1px solid;
+    text-overflow: ellipsis;
+    margin-bottom: 20px;  
+}
+p.box2 {
+    width:200px;
+    white-space: nowrap;
+    overflow: hidden;
+    border:1px solid;
+    text-overflow: ellipsis;
+
+}
+
+p:hover {
+  overflow: inherit;
+  white-space: normal;
+}

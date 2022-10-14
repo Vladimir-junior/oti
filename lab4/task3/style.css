@@ -1,0 +1,20 @@
+p.p1 {
+    text-decoration-color: rgb(0, 0, 216);
+    text-decoration-line: underline;
+    text-decoration-style: wavy;
+}
+p.p2 {
+    text-decoration-color: rgb(255, 96, 96);
+    text-decoration-line: underline;
+    text-decoration-style: dotted;
+}
+p.p3 {
+    text-decoration-color: rgb(58, 184, 0);
+    text-decoration-line: underline;
+    text-decoration-style: dashed;
+}
+p.p4 {
+    text-decoration-color: rgb(255, 0, 0);
+    text-decoration-line: underline;
+    text-decoration-style: double;
+}

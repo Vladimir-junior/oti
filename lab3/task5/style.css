@@ -1,0 +1,29 @@
+a {
+    text-decoration: none;
+}
+
+ul {
+    list-style-type: none;
+    display: flex;
+    width: 234px;
+    justify-content: space-around;
+}
+
+li {
+    width: 40px;
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #333;
+    background-color: #ddd;
+}
+
+li:hover {
+    background-color: #ccc;    
+}
+
+li.item {
+    background-color: rgb(160, 67, 67);
+    color: #fff;
+}

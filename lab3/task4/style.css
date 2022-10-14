@@ -1,0 +1,15 @@
+article {
+    border: 1px solid black;
+    margin: 100px;
+    padding: 20px;
+}
+
+header {
+    background-color: rgb(166, 137, 194);
+    text-align: center;
+    position: fixed;
+    left: 0;
+    right: 0;
+    top: 0;
+    color: #fff;
+}

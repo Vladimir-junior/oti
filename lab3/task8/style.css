@@ -1,0 +1,21 @@
+ul li:not(:last-child)::after { 
+    content: "  >  ";
+}
+
+ul {
+    display: flex;
+    list-style-type: none;
+}
+
+a {
+    color:  #0b56ea;
+    text-decoration: none;
+} 
+
+a:hover {
+    text-decoration: underline;
+} 
+
+span {
+    color: #333;
+}

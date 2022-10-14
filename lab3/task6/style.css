@@ -1,0 +1,29 @@
+body {
+    background-color: #f8f8f8;
+}
+
+
+input {
+    border: 1px solid #ccc;
+    width: 100%;
+    padding: 10px 0;
+}
+
+.button {
+    background-color: #1cbc11;
+    color: rgb(211, 211, 211);
+}
+
+.button:hover {
+    background-color: #14a20a;
+}
+
+fieldset {
+    display: flex;
+    justify-content: space-around;
+    flex-direction: column;
+    background-color: #fff;
+    width: 320px;
+    height: 320px;
+    padding: 15px;
+}

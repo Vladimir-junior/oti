@@ -1,0 +1,164 @@
+.clouds {
+    position: absolute;
+    top: 0;
+    left: 0;
+    animation: clouds 10s linear infinite;
+    z-index: 1;
+}
+
+.cloud {
+    position: absolute;
+    background-color: white;
+}
+
+@keyframes clouds {
+    0% {
+        left: -500px;
+    }
+
+    100% {
+        left: 300px;
+    }
+}
+
+.cloud1 {
+    position: absolute;
+    top: 70px;
+    left: 160px;
+    width: 60px;
+    height: 30px;
+    border-radius: 50px 50px 0 0;
+}
+
+.cloud1::after {
+    content: "";
+    position: absolute;
+    top: 10px;
+    left: 40px;
+    width: 40px;
+    height: 20px;
+    border-radius: 50px 50px 0 0;
+    background-color: white;
+}
+
+.cloud2 {
+    position: absolute;
+    top: 135px;
+    left: 210px;
+    width: 45px;
+    height: 20px;
+    border-radius: 50px 50px 0 0;
+}
+
+.cloud3 {
+    position: absolute;
+    top: 120px;
+    left: 310px;
+    width: 60px;
+    height: 30px;
+    border-radius: 50px 50px 0 0;
+}
+
+.cloud3::before {
+    content: "";
+    position: absolute;
+    top: 10px;
+    left: -20px;
+    width: 40px;
+    height: 20px;
+    border-radius: 50px 50px 0 0;
+    background-color:white;
+}
+
+.circle {
+    width: 500px;
+    height: 500px;
+    background-color: skyblue;
+    border-radius: 50%;
+    z-index: 0;
+}
+
+.tower {
+    position: absolute;
+    top: 180px;
+    left: 150px;
+    width: 80px;
+    height: 160px;
+    background-color: white;
+    z-index: 2;
+}
+
+.tower::before {
+    content: "";
+    position: absolute;
+    top: -90px;
+    border: 40px solid transparent; 
+    border-bottom: 50px solid lightcoral;
+}
+
+.tower::after {
+    content: "";
+    background-color: black;
+    position: absolute;
+    top: 24px;
+    left: 30px;
+    width: 20px;
+    height: 25px;
+}
+
+.house {
+    position: absolute;
+    top: 270px;
+    left: 230px;
+    width: 160px;
+    height: 70px;
+    background-color: white;
+}
+
+.house::before {
+    content: "";
+    position: absolute;
+    top: -25px;
+    left: -60px;
+    width: 200px;
+    border-bottom: 25px solid lightcoral;
+    border-right: 20px solid transparent;
+    z-index: 2;
+}
+
+.house::after {
+    content: "";
+    background-color: lightcoral;
+    position: absolute;
+    top: -50px;
+    width: 140px;
+    height: 30px;
+}
+
+.window {
+    position: absolute;
+    top: 20px;
+    width: 20px;
+    height: 30px;
+    background-color: black;
+}
+
+.window:nth-child(1) {
+    left: 0;
+}
+
+.window:nth-child(2) {
+    left: 30px;
+}
+
+.window:nth-child(3) {
+    left: 60px;
+}
+
+.window:nth-child(4) {
+    left: 100px;
+}
+
+.window:nth-child(5) {
+    left: 130px;
+}

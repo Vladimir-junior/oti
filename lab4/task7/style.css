@@ -1,0 +1,21 @@
+div.box1 {
+    border: 1px solid black;
+    width: 250px;
+    height: 250px;
+    margin: 40px;
+    box-shadow: 15px 15px 15px gray;
+}  
+div.box2 {
+    border: 1px solid black;
+    width: 250px;
+    height: 250px;
+    margin: 30px;
+    box-shadow: -15px -15px 15px gray;
+}            
+div.box3 {
+    border: 1px solid black;
+    width: 250px;
+    height: 250px;
+    margin: 30px;
+    box-shadow: inset 5px 5px 10px gray;
+}            

@@ -1,0 +1,23 @@
+div.box {
+    border: 1px solid black;
+    margin-bottom: 25px;
+    height: 130px;
+}
+ div.box1 {
+     cursor: help;
+ }
+ div.box2 {
+    cursor: wait;
+}
+div.box3 {
+    cursor: crosshair;
+}
+div.box4 {
+    cursor: zoom-in;
+}
+
+p {
+    margin: 0;
+}
+
+ 
